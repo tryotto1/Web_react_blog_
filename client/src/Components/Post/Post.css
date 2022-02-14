@@ -1,0 +1,56 @@
+.Post{
+    width: 400px;
+    margin: 0px 25px 40px 25px;
+}
+
+.PostImg{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.PostInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PostCategories{
+    font-family: 'Festive', cursive;
+    font-size: 11px;
+    color: orange;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.PostTitle{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.PostDate{
+    font-family: 'Syne Tactile', cursive;
+    font-style: italic;
+    font-size: 13px;
+    margin-top: 15px;
+    color: grey;
+}
+
+.PostDescription{
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    margin-top: 10px;
+    color: darkslategrey;
+    overflow: hidden;
+    line-height: 24px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}

@@ -1,0 +1,54 @@
+.Write{
+    padding: 20px;
+}
+
+.WriteImg{
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.WriteFormGroup{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.WriteFileIcon{
+    cursor: pointer;
+}
+
+.WriteForm{
+    position: relative;
+}
+
+.WriteInput{
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+}
+
+.WriteInput:focus{
+    outline: none;
+}
+
+.WriteText{
+    font-size: 20px;
+}
+
+.WriteSubmit{
+    position: absolute;
+    top: 120px;
+    right: 50px;
+    color: white;
+    background-color: lightsteelblue;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Lora', serif;
+}

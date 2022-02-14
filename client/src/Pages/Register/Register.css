@@ -1,0 +1,61 @@
+.Register{
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1)),
+        url("https://i.imgur.com/EVD1UMg.jpg");
+}
+
+.RegisterTitle{
+    font-size: 50px;
+    font-family: 'Lora', serif;
+}
+
+.RegisterForm{
+    margin-top: 20px;
+    display: flex;
+    font-family: 'Lora', serif;
+    flex-direction: column;
+}
+
+.RegisterForm > label{
+    margin: 10px 0;
+    font-family: 'Lora', serif;
+    
+}
+
+.RegisterInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    font-family: 'Lora', serif;
+    border-radius: 10px;
+}
+
+.RegisterButton{
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: coral;
+    color: white;
+    padding: 10px;
+    font-family: 'Lora', serif;
+}
+
+.RegisterLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    background-color: gray;
+    font-family: 'Lora', serif;
+}

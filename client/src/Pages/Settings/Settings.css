@@ -1,0 +1,87 @@
+.Settings{
+    display: flex;
+
+}
+
+.SettingsWrapper{
+    flex: 9;
+    padding: 20px;
+}
+
+.SettingsTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SettingsUpdateTitle{
+    color: lightcoral;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Lora', serif;
+}
+
+.SettingsDeleteTitle{
+    color: red;
+    font-size: 14px;
+    font-family: 'Lora', serif;
+    cursor: pointer;
+}
+
+.SettingsForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.SettingsProfilePicture{
+    display: flex;
+    flex-direction: column;
+}
+
+.SettingsProfilePicture > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.SettingsProfilePictureIcon{
+    width: 25px;
+    height: 25px;
+    background-color: lightblue;
+    margin: 10px 10px;
+    color: white;
+    margin-left: 25px;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+}
+
+.SettingsForm > label{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Lora', serif;   
+    color: gray;
+}
+
+.SettingsForm > input{
+    border: none;
+    border-bottom: 1px solid lightblue;
+    font-family: 'Lora', serif;
+}
+
+.SettingsSubmit{
+    width: 150px;
+    align-self: center;
+    border:  none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    cursor: pointer;
+}

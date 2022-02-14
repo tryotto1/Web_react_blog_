@@ -1,0 +1,59 @@
+.Login{
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1)),
+        url("https://i.imgur.com/EVD1UMg.jpg");
+}
+
+.LoginTitle{
+    font-size: 50px;
+    font-family: 'Lora', serif;
+}
+
+.LoginForm{
+    margin-top: 20px;
+    display: flex;
+    font-family: 'Lora', serif;
+    flex-direction: column;
+}
+
+.LoginForm > label{
+    margin: 10px 0;
+    font-family: 'Lora', serif;
+}
+
+.LoginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    font-family: 'Lora', serif;
+}
+
+.LoginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: coral;
+    color: white;
+    padding: 10px;
+    font-family: 'Lora', serif;
+}
+
+.LoginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    background-color: darkgray;
+    font-family: 'Lora', serif;
+}
